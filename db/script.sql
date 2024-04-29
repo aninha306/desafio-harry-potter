@@ -18,8 +18,8 @@ CREATE TABLE varinhas(
     material VARCHAR(100) NOT NULL,
     comprimento VARCHAR(100) NOT NULL,
     nucleo VARCHAR(100) NOT NULL,
-    datadefabricacao DATE NOT NULL
+    datadefabricacao VARCHAR(100) NOT NULL
 );
 
-INSERT INTO varas (material, comprimento, nucleo, datadefabricacao) VALUES ('sabugueiro', '30cm', 'pelo de unicórnio', '1890-11-24);
+INSERT INTO varinhas (material, comprimento, nucleo, datadefabricacao) VALUES ('sabugueiro', '30cm', 'pelo de unicórnio', '1890-11-24');
 
