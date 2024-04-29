@@ -181,7 +181,7 @@ app.get('/varinhas/:id', async (req, res) => {
     const id = req.params.id;
   
     try {
-        const result = await pool.query('SELECT * FROM bruxos WHERE id = $1', [id]);
+        const result = await pool.query('SELECT * FROM varinhas WHERE id = $1', [id]);
   
         if (result.rowCount == 0) {
             return res.status(404).send('varas não encontradas');
